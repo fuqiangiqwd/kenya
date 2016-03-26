@@ -1,0 +1,29 @@
+PODS:
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - Masonry (0.6.1)
+  - MBProgressHUD (0.9.1)
+  - PNChart (0.8):
+    - UICountingLabel (~> 1.0.0)
+  - UICountingLabel (1.0.0)
+  - UMengAnalytics (3.4.6)
+
+DEPENDENCIES:
+  - FMDB
+  - Masonry
+  - MBProgressHUD (~> 0.9.1)
+  - PNChart
+  - UMengAnalytics
+
+SPEC CHECKSUMS:
+  FMDB: 0efa188cf0dd1ce82c27a478cd5f5fa245308677
+  Masonry: 2cb49fd14d203d2db5ca6bb017135b235dde9980
+  MBProgressHUD: f3747dcbd45a9e855a6b0674550651e0b7ed250c
+  PNChart: 278c48336e911ee661898f5b04f040b2d9c8df26
+  UICountingLabel: 0a0e9e34bf4690dbd127aaec552d19ed938087a9
+  UMengAnalytics: bc026b4f4a9a162cdf5adc0c53c5a498de7a73bb
+
+COCOAPODS: 0.35.0

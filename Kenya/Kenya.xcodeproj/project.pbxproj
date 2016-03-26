@@ -1,0 +1,964 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BEA07A0A57F619752D83386 /* KNNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BEA061B3B970B584E528937 /* KNNotification.m */; };
+		A70E47D83EB4F4CF1926A8C8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71D82908A918967AFD78B525 /* libPods.a */; };
+		AA17DA651B032EAF00C4E9AD /* KNConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = AA17DA641B032EAF00C4E9AD /* KNConfig.m */; };
+		AA4B697D1B0CC00500A6697C /* KNChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4B697C1B0CC00500A6697C /* KNChartViewController.m */; };
+		AA6DE1231B1758B600AE8499 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6DE1221B1758B600AE8499 /* AVFoundation.framework */; };
+		AA7FCD271B03189B00830697 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7FCD261B03189B00830697 /* main.m */; };
+		AA7FCD2A1B03189B00830697 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7FCD291B03189B00830697 /* AppDelegate.m */; };
+		AA7FCD351B03189B00830697 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7FCD341B03189B00830697 /* Images.xcassets */; };
+		AA7FCD441B03189B00830697 /* KenyaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7FCD431B03189B00830697 /* KenyaTests.m */; };
+		AA98DEF71B0447EF000D3E40 /* KNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA98DEF61B0447EF000D3E40 /* KNViewController.m */; };
+		AAC38C5B1B0A0FA900E624CA /* KNCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC38C5A1B0A0FA900E624CA /* KNCollectionViewCell.m */; };
+		AAC38C5F1B0A1E9000E624CA /* KNBMIHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC38C5E1B0A1E9000E624CA /* KNBMIHistory.m */; };
+		AAC38C621B0A1FEA00E624CA /* KNTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC38C611B0A1FEA00E624CA /* KNTableViewCell.m */; };
+		AAC38C651B0A201E00E624CA /* KNBMIHistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC38C641B0A201E00E624CA /* KNBMIHistoryCell.m */; };
+		AAC38C681B0A250100E624CA /* KNFMDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC38C671B0A250100E624CA /* KNFMDBManager.m */; };
+		AAC4729B1B0CA34C0081CB1B /* UIColor+KNColor.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC4729A1B0CA34C0081CB1B /* UIColor+KNColor.m */; };
+		AAC7F3AB1B0B4C4A00EA6FE0 /* KNBMIModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC7F3AA1B0B4C4A00EA6FE0 /* KNBMIModel.m */; };
+		AAC7F3AE1B0B4C9900EA6FE0 /* KNBMIDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC7F3AD1B0B4C9900EA6FE0 /* KNBMIDataModel.m */; };
+		AAC7F3B61B0B729300EA6FE0 /* KNBMIDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC7F3B51B0B729300EA6FE0 /* KNBMIDetail.m */; };
+		AAE665E11B0C2A8B00333E4C /* KNAboutBMIView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE665E01B0C2A8B00333E4C /* KNAboutBMIView.m */; };
+		AAE665E61B0C32E600333E4C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE665E51B0C32E600333E4C /* MessageUI.framework */; };
+		AAE729DF1B0DE16D00247354 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE729DD1B0DE16D00247354 /* Fabric.framework */; };
+		AAE729E01B0DE16D00247354 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE729DE1B0DE16D00247354 /* Crashlytics.framework */; };
+		AAE729E51B0DEBB000247354 /* KNShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE729E41B0DEBB000247354 /* KNShareView.m */; };
+		AAE729E91B0DEC7400247354 /* KNThirdPartyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE729E81B0DEC7400247354 /* KNThirdPartyManager.m */; };
+		AAE729F41B0DF5AB00247354 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE729F31B0DF5AB00247354 /* ImageIO.framework */; };
+		AAE729F61B0DF5B500247354 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE729F51B0DF5B500247354 /* QuartzCore.framework */; };
+		AAE729F81B0DF5C100247354 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE729F71B0DF5C100247354 /* SystemConfiguration.framework */; };
+		AAE729FA1B0DF5CB00247354 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE729F91B0DF5CB00247354 /* Security.framework */; };
+		AAE729FD1B0DF5DB00247354 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE729FB1B0DF5DA00247354 /* CoreTelephony.framework */; };
+		AAE729FE1B0DF5DB00247354 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE729FC1B0DF5DB00247354 /* CoreText.framework */; };
+		AAE72A001B0DF5E500247354 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE729FF1B0DF5E500247354 /* UIKit.framework */; };
+		AAE72A021B0DF5EB00247354 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE72A011B0DF5EB00247354 /* Foundation.framework */; };
+		AAE72A0F1B0DF6B100247354 /* libWeiboSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE72A041B0DF6B100247354 /* libWeiboSDK.a */; };
+		AAE72A101B0DF6B100247354 /* WeiboSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AAE72A0C1B0DF6B100247354 /* WeiboSDK.bundle */; };
+		AAE72A141B0DF80D00247354 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE72A121B0DF80D00247354 /* TencentOpenAPI.framework */; };
+		AAE72A191B0E054600247354 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE72A151B0E054600247354 /* libWeChatSDK.a */; };
+		AAE72A1A1B0E054600247354 /* read_me.txt in Resources */ = {isa = PBXBuildFile; fileRef = AAE72A161B0E054600247354 /* read_me.txt */; };
+		AAE72A1C1B0E184200247354 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE72A1B1B0E184200247354 /* libiconv.dylib */; };
+		AAE72A1E1B0E185300247354 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE72A1D1B0E185300247354 /* libsqlite3.dylib */; };
+		AAE72A201B0E185800247354 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE72A1F1B0E185800247354 /* CoreGraphics.framework */; };
+		AAE72A221B0E186600247354 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE72A211B0E186600247354 /* libstdc++.dylib */; };
+		AAE72A241B0E186B00247354 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE72A231B0E186B00247354 /* libz.dylib */; };
+		AAE72A2A1B0E19FE00247354 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AAE72A291B0E19FE00247354 /* TencentOpenApi_IOS_Bundle.bundle */; };
+		AAE72A2E1B0E1C3500247354 /* KNDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE72A2D1B0E1C3500247354 /* KNDeviceInfo.m */; };
+		AAF872B31B049FB70097D283 /* KNNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF872B21B049FB70097D283 /* KNNavigationController.m */; };
+		AAF872B61B04A0DB0097D283 /* KNTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF872B51B04A0DB0097D283 /* KNTabBarController.m */; };
+		AAF872B91B04A1B80097D283 /* KNTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF872B81B04A1B80097D283 /* KNTableView.m */; };
+		AAF872BC1B04A3AF0097D283 /* KNBMIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF872BB1B04A3AF0097D283 /* KNBMIViewController.m */; };
+		AAF872BF1B04A3EC0097D283 /* KNMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF872BE1B04A3EC0097D283 /* KNMainViewController.m */; };
+		AAF872C31B04AD3D0097D283 /* KNAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF872C21B04AD3D0097D283 /* KNAboutViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA7FCD3E1B03189B00830697 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA7FCD191B03189B00830697 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA7FCD201B03189B00830697;
+			remoteInfo = Kenya;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63EBD5F7787A5B06C9C4B712 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6B629DCC00997D58B78B83E3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6BEA061B3B970B584E528937 /* KNNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNNotification.m; sourceTree = "<group>"; };
+		6BEA0EC6774BE6F28565651B /* KNNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNNotification.h; sourceTree = "<group>"; };
+		71D82908A918967AFD78B525 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA17DA631B032EAF00C4E9AD /* KNConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNConfig.h; sourceTree = "<group>"; };
+		AA17DA641B032EAF00C4E9AD /* KNConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNConfig.m; sourceTree = "<group>"; };
+		AA4B697B1B0CC00500A6697C /* KNChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNChartViewController.h; sourceTree = "<group>"; };
+		AA4B697C1B0CC00500A6697C /* KNChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNChartViewController.m; sourceTree = "<group>"; };
+		AA6982E21B031D1500EFB6A9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		AA6DE1221B1758B600AE8499 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AA7FCD211B03189B00830697 /* Kenya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kenya.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7FCD251B03189B00830697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA7FCD261B03189B00830697 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA7FCD281B03189B00830697 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA7FCD291B03189B00830697 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA7FCD341B03189B00830697 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AA7FCD3D1B03189B00830697 /* KenyaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KenyaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7FCD421B03189B00830697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA7FCD431B03189B00830697 /* KenyaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KenyaTests.m; sourceTree = "<group>"; };
+		AA98DEF51B0447EF000D3E40 /* KNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNViewController.h; sourceTree = "<group>"; };
+		AA98DEF61B0447EF000D3E40 /* KNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNViewController.m; sourceTree = "<group>"; };
+		AAC38C591B0A0FA900E624CA /* KNCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNCollectionViewCell.h; sourceTree = "<group>"; };
+		AAC38C5A1B0A0FA900E624CA /* KNCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNCollectionViewCell.m; sourceTree = "<group>"; };
+		AAC38C5D1B0A1E9000E624CA /* KNBMIHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNBMIHistory.h; sourceTree = "<group>"; };
+		AAC38C5E1B0A1E9000E624CA /* KNBMIHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNBMIHistory.m; sourceTree = "<group>"; };
+		AAC38C601B0A1FEA00E624CA /* KNTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNTableViewCell.h; sourceTree = "<group>"; };
+		AAC38C611B0A1FEA00E624CA /* KNTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNTableViewCell.m; sourceTree = "<group>"; };
+		AAC38C631B0A201E00E624CA /* KNBMIHistoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNBMIHistoryCell.h; sourceTree = "<group>"; };
+		AAC38C641B0A201E00E624CA /* KNBMIHistoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNBMIHistoryCell.m; sourceTree = "<group>"; };
+		AAC38C661B0A250100E624CA /* KNFMDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNFMDBManager.h; sourceTree = "<group>"; };
+		AAC38C671B0A250100E624CA /* KNFMDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNFMDBManager.m; sourceTree = "<group>"; };
+		AAC472991B0CA34C0081CB1B /* UIColor+KNColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+KNColor.h"; sourceTree = "<group>"; };
+		AAC4729A1B0CA34C0081CB1B /* UIColor+KNColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+KNColor.m"; sourceTree = "<group>"; };
+		AAC7F3A91B0B4C4A00EA6FE0 /* KNBMIModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNBMIModel.h; sourceTree = "<group>"; };
+		AAC7F3AA1B0B4C4A00EA6FE0 /* KNBMIModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNBMIModel.m; sourceTree = "<group>"; };
+		AAC7F3AC1B0B4C9900EA6FE0 /* KNBMIDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNBMIDataModel.h; sourceTree = "<group>"; };
+		AAC7F3AD1B0B4C9900EA6FE0 /* KNBMIDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNBMIDataModel.m; sourceTree = "<group>"; };
+		AAC7F3B41B0B729300EA6FE0 /* KNBMIDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNBMIDetail.h; sourceTree = "<group>"; };
+		AAC7F3B51B0B729300EA6FE0 /* KNBMIDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNBMIDetail.m; sourceTree = "<group>"; };
+		AAE665DF1B0C2A8B00333E4C /* KNAboutBMIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNAboutBMIView.h; sourceTree = "<group>"; };
+		AAE665E01B0C2A8B00333E4C /* KNAboutBMIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNAboutBMIView.m; sourceTree = "<group>"; };
+		AAE665E51B0C32E600333E4C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		AAE729DD1B0DE16D00247354 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = ../Fabric.framework; sourceTree = "<group>"; };
+		AAE729DE1B0DE16D00247354 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = ../Crashlytics.framework; sourceTree = "<group>"; };
+		AAE729E31B0DEBB000247354 /* KNShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNShareView.h; sourceTree = "<group>"; };
+		AAE729E41B0DEBB000247354 /* KNShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNShareView.m; sourceTree = "<group>"; };
+		AAE729E71B0DEC7400247354 /* KNThirdPartyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNThirdPartyManager.h; sourceTree = "<group>"; };
+		AAE729E81B0DEC7400247354 /* KNThirdPartyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNThirdPartyManager.m; sourceTree = "<group>"; };
+		AAE729F31B0DF5AB00247354 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		AAE729F51B0DF5B500247354 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AAE729F71B0DF5C100247354 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AAE729F91B0DF5CB00247354 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		AAE729FB1B0DF5DA00247354 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		AAE729FC1B0DF5DB00247354 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		AAE729FF1B0DF5E500247354 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AAE72A011B0DF5EB00247354 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AAE72A041B0DF6B100247354 /* libWeiboSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeiboSDK.a; sourceTree = "<group>"; };
+		AAE72A051B0DF6B100247354 /* WBHttpRequest+WeiboShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WBHttpRequest+WeiboShare.h"; sourceTree = "<group>"; };
+		AAE72A061B0DF6B100247354 /* WBHttpRequest+WeiboToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WBHttpRequest+WeiboToken.h"; sourceTree = "<group>"; };
+		AAE72A071B0DF6B100247354 /* WBHttpRequest+WeiboUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WBHttpRequest+WeiboUser.h"; sourceTree = "<group>"; };
+		AAE72A081B0DF6B100247354 /* WBHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBHttpRequest.h; sourceTree = "<group>"; };
+		AAE72A091B0DF6B100247354 /* WBSDKBasicButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBSDKBasicButton.h; sourceTree = "<group>"; };
+		AAE72A0A1B0DF6B100247354 /* WBSDKCommentButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBSDKCommentButton.h; sourceTree = "<group>"; };
+		AAE72A0B1B0DF6B100247354 /* WBSDKRelationshipButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBSDKRelationshipButton.h; sourceTree = "<group>"; };
+		AAE72A0C1B0DF6B100247354 /* WeiboSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WeiboSDK.bundle; sourceTree = "<group>"; };
+		AAE72A0D1B0DF6B100247354 /* WeiboSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboSDK.h; sourceTree = "<group>"; };
+		AAE72A0E1B0DF6B100247354 /* WeiboUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboUser.h; sourceTree = "<group>"; };
+		AAE72A121B0DF80D00247354 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		AAE72A151B0E054600247354 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		AAE72A161B0E054600247354 /* read_me.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = read_me.txt; sourceTree = "<group>"; };
+		AAE72A171B0E054600247354 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		AAE72A181B0E054600247354 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		AAE72A1B1B0E184200247354 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		AAE72A1D1B0E185300247354 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		AAE72A1F1B0E185800247354 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AAE72A211B0E186600247354 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		AAE72A231B0E186B00247354 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		AAE72A291B0E19FE00247354 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		AAE72A2C1B0E1C3500247354 /* KNDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNDeviceInfo.h; sourceTree = "<group>"; };
+		AAE72A2D1B0E1C3500247354 /* KNDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNDeviceInfo.m; sourceTree = "<group>"; };
+		AAF872B11B049FB70097D283 /* KNNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNNavigationController.h; sourceTree = "<group>"; };
+		AAF872B21B049FB70097D283 /* KNNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNNavigationController.m; sourceTree = "<group>"; };
+		AAF872B41B04A0DB0097D283 /* KNTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNTabBarController.h; sourceTree = "<group>"; };
+		AAF872B51B04A0DB0097D283 /* KNTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNTabBarController.m; sourceTree = "<group>"; };
+		AAF872B71B04A1B80097D283 /* KNTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNTableView.h; sourceTree = "<group>"; };
+		AAF872B81B04A1B80097D283 /* KNTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNTableView.m; sourceTree = "<group>"; };
+		AAF872BA1B04A3AF0097D283 /* KNBMIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNBMIViewController.h; sourceTree = "<group>"; };
+		AAF872BB1B04A3AF0097D283 /* KNBMIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNBMIViewController.m; sourceTree = "<group>"; };
+		AAF872BD1B04A3EC0097D283 /* KNMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNMainViewController.h; sourceTree = "<group>"; };
+		AAF872BE1B04A3EC0097D283 /* KNMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNMainViewController.m; sourceTree = "<group>"; };
+		AAF872C11B04AD3D0097D283 /* KNAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNAboutViewController.h; sourceTree = "<group>"; };
+		AAF872C21B04AD3D0097D283 /* KNAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNAboutViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA7FCD1E1B03189B00830697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6DE1231B1758B600AE8499 /* AVFoundation.framework in Frameworks */,
+				AAE72A241B0E186B00247354 /* libz.dylib in Frameworks */,
+				AAE72A221B0E186600247354 /* libstdc++.dylib in Frameworks */,
+				AAE72A201B0E185800247354 /* CoreGraphics.framework in Frameworks */,
+				AAE72A1E1B0E185300247354 /* libsqlite3.dylib in Frameworks */,
+				AAE72A1C1B0E184200247354 /* libiconv.dylib in Frameworks */,
+				AAE72A021B0DF5EB00247354 /* Foundation.framework in Frameworks */,
+				AAE72A001B0DF5E500247354 /* UIKit.framework in Frameworks */,
+				AAE729FD1B0DF5DB00247354 /* CoreTelephony.framework in Frameworks */,
+				AAE72A0F1B0DF6B100247354 /* libWeiboSDK.a in Frameworks */,
+				AAE729FE1B0DF5DB00247354 /* CoreText.framework in Frameworks */,
+				AAE729FA1B0DF5CB00247354 /* Security.framework in Frameworks */,
+				AAE729F81B0DF5C100247354 /* SystemConfiguration.framework in Frameworks */,
+				AAE729F61B0DF5B500247354 /* QuartzCore.framework in Frameworks */,
+				AAE729F41B0DF5AB00247354 /* ImageIO.framework in Frameworks */,
+				AAE665E61B0C32E600333E4C /* MessageUI.framework in Frameworks */,
+				AAE72A141B0DF80D00247354 /* TencentOpenAPI.framework in Frameworks */,
+				A70E47D83EB4F4CF1926A8C8 /* libPods.a in Frameworks */,
+				AAE729E01B0DE16D00247354 /* Crashlytics.framework in Frameworks */,
+				AAE729DF1B0DE16D00247354 /* Fabric.framework in Frameworks */,
+				AAE72A191B0E054600247354 /* libWeChatSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7FCD3A1B03189B00830697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E7EA9B84A1CD593B6F386DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA6DE1221B1758B600AE8499 /* AVFoundation.framework */,
+				AAE72A231B0E186B00247354 /* libz.dylib */,
+				AAE72A211B0E186600247354 /* libstdc++.dylib */,
+				AAE72A1F1B0E185800247354 /* CoreGraphics.framework */,
+				AAE72A1D1B0E185300247354 /* libsqlite3.dylib */,
+				AAE72A1B1B0E184200247354 /* libiconv.dylib */,
+				AAE72A011B0DF5EB00247354 /* Foundation.framework */,
+				AAE729FF1B0DF5E500247354 /* UIKit.framework */,
+				AAE729FB1B0DF5DA00247354 /* CoreTelephony.framework */,
+				AAE729FC1B0DF5DB00247354 /* CoreText.framework */,
+				AAE729F91B0DF5CB00247354 /* Security.framework */,
+				AAE729F71B0DF5C100247354 /* SystemConfiguration.framework */,
+				AAE729F51B0DF5B500247354 /* QuartzCore.framework */,
+				AAE729F31B0DF5AB00247354 /* ImageIO.framework */,
+				AAE665E51B0C32E600333E4C /* MessageUI.framework */,
+				71D82908A918967AFD78B525 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F30314DABF6BADE046E806A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63EBD5F7787A5B06C9C4B712 /* Pods.debug.xcconfig */,
+				6B629DCC00997D58B78B83E3 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AA6982E11B031CB900EFB6A9 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				AA6982E21B031D1500EFB6A9 /* PrefixHeader.pch */,
+				AA17DA631B032EAF00C4E9AD /* KNConfig.h */,
+				AA17DA641B032EAF00C4E9AD /* KNConfig.m */,
+				AAE72A2C1B0E1C3500247354 /* KNDeviceInfo.h */,
+				AAE72A2D1B0E1C3500247354 /* KNDeviceInfo.m */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		AA6982E51B0329B300EFB6A9 /* BaseControls */ = {
+			isa = PBXGroup;
+			children = (
+				AA98DEF51B0447EF000D3E40 /* KNViewController.h */,
+				AA98DEF61B0447EF000D3E40 /* KNViewController.m */,
+				AAF872B11B049FB70097D283 /* KNNavigationController.h */,
+				AAF872B21B049FB70097D283 /* KNNavigationController.m */,
+				AAF872B41B04A0DB0097D283 /* KNTabBarController.h */,
+				AAF872B51B04A0DB0097D283 /* KNTabBarController.m */,
+				AAF872B71B04A1B80097D283 /* KNTableView.h */,
+				AAF872B81B04A1B80097D283 /* KNTableView.m */,
+				AAC38C591B0A0FA900E624CA /* KNCollectionViewCell.h */,
+				AAC38C5A1B0A0FA900E624CA /* KNCollectionViewCell.m */,
+				AAC38C601B0A1FEA00E624CA /* KNTableViewCell.h */,
+				AAC38C611B0A1FEA00E624CA /* KNTableViewCell.m */,
+			);
+			name = BaseControls;
+			sourceTree = "<group>";
+		};
+		AA7FCD181B03189B00830697 = {
+			isa = PBXGroup;
+			children = (
+				AA7FCD231B03189B00830697 /* Kenya */,
+				AA7FCD401B03189B00830697 /* KenyaTests */,
+				AA7FCD221B03189B00830697 /* Products */,
+				9F30314DABF6BADE046E806A /* Pods */,
+				7E7EA9B84A1CD593B6F386DC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AA7FCD221B03189B00830697 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA7FCD211B03189B00830697 /* Kenya.app */,
+				AA7FCD3D1B03189B00830697 /* KenyaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA7FCD231B03189B00830697 /* Kenya */ = {
+			isa = PBXGroup;
+			children = (
+				AACD8A8D1B04BEA100337008 /* Models */,
+				AA98DEF11B044731000D3E40 /* CustomControls */,
+				AA6982E51B0329B300EFB6A9 /* BaseControls */,
+				AAF872C71B04AE780097D283 /* Views */,
+				AA7FCD341B03189B00830697 /* Images.xcassets */,
+				AA7FCD281B03189B00830697 /* AppDelegate.h */,
+				AA7FCD291B03189B00830697 /* AppDelegate.m */,
+				AAE729E61B0DEC5B00247354 /* ThirdPlatform */,
+				AAC472911B0CA1DF0081CB1B /* Global */,
+				AA7FCD241B03189B00830697 /* Supporting Files */,
+			);
+			path = Kenya;
+			sourceTree = "<group>";
+		};
+		AA7FCD241B03189B00830697 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA7FCD251B03189B00830697 /* Info.plist */,
+				AA7FCD261B03189B00830697 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA7FCD401B03189B00830697 /* KenyaTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA7FCD431B03189B00830697 /* KenyaTests.m */,
+				AA7FCD411B03189B00830697 /* Supporting Files */,
+			);
+			path = KenyaTests;
+			sourceTree = "<group>";
+		};
+		AA7FCD411B03189B00830697 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA7FCD421B03189B00830697 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA98DEF11B044731000D3E40 /* CustomControls */ = {
+			isa = PBXGroup;
+			children = (
+				AAE729E31B0DEBB000247354 /* KNShareView.h */,
+				AAE729E41B0DEBB000247354 /* KNShareView.m */,
+			);
+			name = CustomControls;
+			sourceTree = "<group>";
+		};
+		AAC472911B0CA1DF0081CB1B /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				AA6982E11B031CB900EFB6A9 /* Config */,
+				AAC472921B0CA1E60081CB1B /* Category */,
+				AAE729E11B0DE2B000247354 /* Crashlytics */,
+				6BEA061B3B970B584E528937 /* KNNotification.m */,
+				6BEA0EC6774BE6F28565651B /* KNNotification.h */,
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
+		AAC472921B0CA1E60081CB1B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				AAC472991B0CA34C0081CB1B /* UIColor+KNColor.h */,
+				AAC4729A1B0CA34C0081CB1B /* UIColor+KNColor.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		AACD8A8D1B04BEA100337008 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AAC38C661B0A250100E624CA /* KNFMDBManager.h */,
+				AAC38C671B0A250100E624CA /* KNFMDBManager.m */,
+				AAC7F3A91B0B4C4A00EA6FE0 /* KNBMIModel.h */,
+				AAC7F3AA1B0B4C4A00EA6FE0 /* KNBMIModel.m */,
+				AAC7F3AC1B0B4C9900EA6FE0 /* KNBMIDataModel.h */,
+				AAC7F3AD1B0B4C9900EA6FE0 /* KNBMIDataModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		AAE729E11B0DE2B000247354 /* Crashlytics */ = {
+			isa = PBXGroup;
+			children = (
+				AAE729DD1B0DE16D00247354 /* Fabric.framework */,
+				AAE729DE1B0DE16D00247354 /* Crashlytics.framework */,
+			);
+			name = Crashlytics;
+			sourceTree = "<group>";
+		};
+		AAE729E61B0DEC5B00247354 /* ThirdPlatform */ = {
+			isa = PBXGroup;
+			children = (
+				AAE729EC1B0DEFD600247354 /* Weibo */,
+				AAE729EB1B0DEFD000247354 /* QQ */,
+				AAE729EA1B0DEFC800247354 /* Wechat */,
+				AAE729E71B0DEC7400247354 /* KNThirdPartyManager.h */,
+				AAE729E81B0DEC7400247354 /* KNThirdPartyManager.m */,
+			);
+			name = ThirdPlatform;
+			sourceTree = "<group>";
+		};
+		AAE729EA1B0DEFC800247354 /* Wechat */ = {
+			isa = PBXGroup;
+			children = (
+				AAE72A151B0E054600247354 /* libWeChatSDK.a */,
+				AAE72A161B0E054600247354 /* read_me.txt */,
+				AAE72A171B0E054600247354 /* WXApi.h */,
+				AAE72A181B0E054600247354 /* WXApiObject.h */,
+			);
+			name = Wechat;
+			sourceTree = "<group>";
+		};
+		AAE729EB1B0DEFD000247354 /* QQ */ = {
+			isa = PBXGroup;
+			children = (
+				AAE72A291B0E19FE00247354 /* TencentOpenApi_IOS_Bundle.bundle */,
+				AAE72A121B0DF80D00247354 /* TencentOpenAPI.framework */,
+			);
+			name = QQ;
+			sourceTree = "<group>";
+		};
+		AAE729EC1B0DEFD600247354 /* Weibo */ = {
+			isa = PBXGroup;
+			children = (
+				AAE72A031B0DF6B100247354 /* libWeiboSDK */,
+			);
+			name = Weibo;
+			sourceTree = "<group>";
+		};
+		AAE72A031B0DF6B100247354 /* libWeiboSDK */ = {
+			isa = PBXGroup;
+			children = (
+				AAE72A041B0DF6B100247354 /* libWeiboSDK.a */,
+				AAE72A051B0DF6B100247354 /* WBHttpRequest+WeiboShare.h */,
+				AAE72A061B0DF6B100247354 /* WBHttpRequest+WeiboToken.h */,
+				AAE72A071B0DF6B100247354 /* WBHttpRequest+WeiboUser.h */,
+				AAE72A081B0DF6B100247354 /* WBHttpRequest.h */,
+				AAE72A091B0DF6B100247354 /* WBSDKBasicButton.h */,
+				AAE72A0A1B0DF6B100247354 /* WBSDKCommentButton.h */,
+				AAE72A0B1B0DF6B100247354 /* WBSDKRelationshipButton.h */,
+				AAE72A0C1B0DF6B100247354 /* WeiboSDK.bundle */,
+				AAE72A0D1B0DF6B100247354 /* WeiboSDK.h */,
+				AAE72A0E1B0DF6B100247354 /* WeiboUser.h */,
+			);
+			path = libWeiboSDK;
+			sourceTree = "<group>";
+		};
+		AAF872C71B04AE780097D283 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AAF872BD1B04A3EC0097D283 /* KNMainViewController.h */,
+				AAF872BE1B04A3EC0097D283 /* KNMainViewController.m */,
+				AAF872C11B04AD3D0097D283 /* KNAboutViewController.h */,
+				AAF872C21B04AD3D0097D283 /* KNAboutViewController.m */,
+				AAF872BA1B04A3AF0097D283 /* KNBMIViewController.h */,
+				AAF872BB1B04A3AF0097D283 /* KNBMIViewController.m */,
+				AAC38C5D1B0A1E9000E624CA /* KNBMIHistory.h */,
+				AAC38C5E1B0A1E9000E624CA /* KNBMIHistory.m */,
+				AAC38C631B0A201E00E624CA /* KNBMIHistoryCell.h */,
+				AAC38C641B0A201E00E624CA /* KNBMIHistoryCell.m */,
+				AAC7F3B41B0B729300EA6FE0 /* KNBMIDetail.h */,
+				AAC7F3B51B0B729300EA6FE0 /* KNBMIDetail.m */,
+				AAE665DF1B0C2A8B00333E4C /* KNAboutBMIView.h */,
+				AAE665E01B0C2A8B00333E4C /* KNAboutBMIView.m */,
+				AA4B697B1B0CC00500A6697C /* KNChartViewController.h */,
+				AA4B697C1B0CC00500A6697C /* KNChartViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA7FCD201B03189B00830697 /* Kenya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA7FCD471B03189B00830697 /* Build configuration list for PBXNativeTarget "Kenya" */;
+			buildPhases = (
+				AFA9563C9E27E0B0C7CD9EEA /* Check Pods Manifest.lock */,
+				AA7FCD1D1B03189B00830697 /* Sources */,
+				AA7FCD1E1B03189B00830697 /* Frameworks */,
+				AA7FCD1F1B03189B00830697 /* Resources */,
+				B1D9B150C32C77ED5BA2DF88 /* Copy Pods Resources */,
+				AAE729DC1B0DE0DB00247354 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kenya;
+			productName = Kenya;
+			productReference = AA7FCD211B03189B00830697 /* Kenya.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA7FCD3C1B03189B00830697 /* KenyaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA7FCD4A1B03189B00830697 /* Build configuration list for PBXNativeTarget "KenyaTests" */;
+			buildPhases = (
+				AA7FCD391B03189B00830697 /* Sources */,
+				AA7FCD3A1B03189B00830697 /* Frameworks */,
+				AA7FCD3B1B03189B00830697 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA7FCD3F1B03189B00830697 /* PBXTargetDependency */,
+			);
+			name = KenyaTests;
+			productName = KenyaTests;
+			productReference = AA7FCD3D1B03189B00830697 /* KenyaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA7FCD191B03189B00830697 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KN;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = wjdbr;
+				TargetAttributes = {
+					AA7FCD201B03189B00830697 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 6B9H64D7K9;
+					};
+					AA7FCD3C1B03189B00830697 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = AA7FCD201B03189B00830697;
+					};
+				};
+			};
+			buildConfigurationList = AA7FCD1C1B03189B00830697 /* Build configuration list for PBXProject "Kenya" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA7FCD181B03189B00830697;
+			productRefGroup = AA7FCD221B03189B00830697 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA7FCD201B03189B00830697 /* Kenya */,
+				AA7FCD3C1B03189B00830697 /* KenyaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA7FCD1F1B03189B00830697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7FCD351B03189B00830697 /* Images.xcassets in Resources */,
+				AAE72A101B0DF6B100247354 /* WeiboSDK.bundle in Resources */,
+				AAE72A2A1B0E19FE00247354 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				AAE72A1A1B0E054600247354 /* read_me.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7FCD3B1B03189B00830697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AAE729DC1B0DE0DB00247354 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 9e12dd649ceab3c7750a53c829311b7604f5df33 2dbb5433b26ee95d0cf1272d5dfbbb6392a86548e2c76bcaeb744cec262755a0";
+		};
+		AFA9563C9E27E0B0C7CD9EEA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B1D9B150C32C77ED5BA2DF88 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA7FCD1D1B03189B00830697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF872BF1B04A3EC0097D283 /* KNMainViewController.m in Sources */,
+				AAC38C5B1B0A0FA900E624CA /* KNCollectionViewCell.m in Sources */,
+				AAC38C651B0A201E00E624CA /* KNBMIHistoryCell.m in Sources */,
+				AAC38C621B0A1FEA00E624CA /* KNTableViewCell.m in Sources */,
+				AAE72A2E1B0E1C3500247354 /* KNDeviceInfo.m in Sources */,
+				AAC7F3AE1B0B4C9900EA6FE0 /* KNBMIDataModel.m in Sources */,
+				AAF872B31B049FB70097D283 /* KNNavigationController.m in Sources */,
+				AA4B697D1B0CC00500A6697C /* KNChartViewController.m in Sources */,
+				AAE665E11B0C2A8B00333E4C /* KNAboutBMIView.m in Sources */,
+				AAF872BC1B04A3AF0097D283 /* KNBMIViewController.m in Sources */,
+				AA7FCD2A1B03189B00830697 /* AppDelegate.m in Sources */,
+				AAF872B91B04A1B80097D283 /* KNTableView.m in Sources */,
+				AAE729E51B0DEBB000247354 /* KNShareView.m in Sources */,
+				AAC4729B1B0CA34C0081CB1B /* UIColor+KNColor.m in Sources */,
+				AAE729E91B0DEC7400247354 /* KNThirdPartyManager.m in Sources */,
+				AA98DEF71B0447EF000D3E40 /* KNViewController.m in Sources */,
+				AA17DA651B032EAF00C4E9AD /* KNConfig.m in Sources */,
+				AAC38C681B0A250100E624CA /* KNFMDBManager.m in Sources */,
+				AAC38C5F1B0A1E9000E624CA /* KNBMIHistory.m in Sources */,
+				AAF872C31B04AD3D0097D283 /* KNAboutViewController.m in Sources */,
+				AAF872B61B04A0DB0097D283 /* KNTabBarController.m in Sources */,
+				AA7FCD271B03189B00830697 /* main.m in Sources */,
+				AAC7F3B61B0B729300EA6FE0 /* KNBMIDetail.m in Sources */,
+				AAC7F3AB1B0B4C4A00EA6FE0 /* KNBMIModel.m in Sources */,
+				6BEA07A0A57F619752D83386 /* KNNotification.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7FCD391B03189B00830697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7FCD441B03189B00830697 /* KenyaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA7FCD3F1B03189B00830697 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA7FCD201B03189B00830697 /* Kenya */;
+			targetProxy = AA7FCD3E1B03189B00830697 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA64D9E81B0DCBD600D3E459 /* ad hoc distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: fuqiangiqwd@163.com (28A54LKX3Z)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: fuqiangiqwd@163.com (28A54LKX3Z)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "ad hoc distribution";
+		};
+		AA64D9E91B0DCBD600D3E459 /* ad hoc distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B629DCC00997D58B78B83E3 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Kenya",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/FuQiang/Desktop/kenya/Kenya/Kenya/PrefixHeader.pch;
+				INFOPLIST_FILE = Kenya/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Kenya",
+					"$(PROJECT_DIR)/Kenya/libWeiboSDK",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = org.fuqiangiqwd.kenya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = "ad hoc distribution";
+		};
+		AA64D9EA1B0DCBD600D3E459 /* ad hoc distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KenyaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.pivotstudio.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kenya.app/Kenya";
+			};
+			name = "ad hoc distribution";
+		};
+		AA7FCD451B03189B00830697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: fuqiangiqwd@163.com (28A54LKX3Z)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: fuqiangiqwd@163.com (28A54LKX3Z)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA7FCD461B03189B00830697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: fuqiangiqwd@163.com (28A54LKX3Z)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: fuqiangiqwd@163.com (28A54LKX3Z)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA7FCD481B03189B00830697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63EBD5F7787A5B06C9C4B712 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Kenya",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/FuQiang/Desktop/kenya/Kenya/Kenya/PrefixHeader.pch;
+				INFOPLIST_FILE = Kenya/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Kenya",
+					"$(PROJECT_DIR)/Kenya/libWeiboSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.fuqiangiqwd.kenya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		AA7FCD491B03189B00830697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B629DCC00997D58B78B83E3 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Kenya",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/FuQiang/Desktop/kenya/Kenya/Kenya/PrefixHeader.pch;
+				INFOPLIST_FILE = Kenya/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Kenya",
+					"$(PROJECT_DIR)/Kenya/libWeiboSDK",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = org.fuqiangiqwd.kenya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Release;
+		};
+		AA7FCD4B1B03189B00830697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KenyaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.pivotstudio.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kenya.app/Kenya";
+			};
+			name = Debug;
+		};
+		AA7FCD4C1B03189B00830697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KenyaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.pivotstudio.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kenya.app/Kenya";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA7FCD1C1B03189B00830697 /* Build configuration list for PBXProject "Kenya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7FCD451B03189B00830697 /* Debug */,
+				AA7FCD461B03189B00830697 /* Release */,
+				AA64D9E81B0DCBD600D3E459 /* ad hoc distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA7FCD471B03189B00830697 /* Build configuration list for PBXNativeTarget "Kenya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7FCD481B03189B00830697 /* Debug */,
+				AA7FCD491B03189B00830697 /* Release */,
+				AA64D9E91B0DCBD600D3E459 /* ad hoc distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA7FCD4A1B03189B00830697 /* Build configuration list for PBXNativeTarget "KenyaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7FCD4B1B03189B00830697 /* Debug */,
+				AA7FCD4C1B03189B00830697 /* Release */,
+				AA64D9EA1B0DCBD600D3E459 /* ad hoc distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA7FCD191B03189B00830697 /* Project object */;
+}

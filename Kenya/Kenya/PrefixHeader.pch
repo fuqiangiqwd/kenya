@@ -1,0 +1,56 @@
+//
+//  PrefixHeader.pch
+//  Kenya
+//
+//  Created by wjdbr on 15/5/13.
+//  Copyright (c) 2015年 wjdbr. All rights reserved.
+//
+
+#ifndef Kenya_PrefixHeader_pch
+#define Kenya_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#include <Masonry.h>
+//#include <AFNetworking.h>
+#include <FMDB.h>
+#include <PNChart.h>
+#include <MobClick.h>
+#include <MBProgressHUD.h>
+
+#include "KNConfig.h"
+
+#include "UIColor+KNColor.h"
+
+#define _ScreenWidth [[UIScreen mainScreen] bounds].size.width
+#define _ScreenHeight [[UIScreen mainScreen] bounds].size.height
+
+#define _F(number) number * [KNConfig scaleInView]
+
+#define _BMIDataBase @"KenyaBMIDB.db"
+#define _BMITableName @"tb_BMI1"
+#define _BMICreateTableSql [KNConfig getBMITableSql]
+
+typedef void(^KNEmptyBlock)();
+typedef void(^KNBlock)(NSInteger paraInt);
+
+#define kWeiboKey @"2827804191"
+#define kWeixinKey @"wx6e6f4e854c3002e9"
+#define kQQKey @"1104655278"
+#define kUmengKey @"5566d13d67e58e5cb6005475"
+
+#define kWebsite @"http://www.pivotstudio.org"
+#define kWeibourl @"http://weibo.com/wjdbr"
+
+
+#define _Size11 11
+#define _Size12 12
+#define _Size13 13
+#define _Size14 14
+#define _Size15 15
+#define _Size16 16
+#define _Size17 17
+#define _Size18 18
+
+#endif

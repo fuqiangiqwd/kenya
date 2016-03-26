@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9D1D5B2C-A7C5-4C54-A554-0F1222117FB9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Kenya</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>107549880E0CBA8473AF8A21FD7F250A28808139</key>
+		<string>https://gitlab.com/wjdbr/kenya.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Kenya/Kenya.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>107549880E0CBA8473AF8A21FD7F250A28808139</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://gitlab.com/wjdbr/kenya.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>107549880E0CBA8473AF8A21FD7F250A28808139</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>107549880E0CBA8473AF8A21FD7F250A28808139</string>
+			<key>IDESourceControlWCCName</key>
+			<string>kenya</string>
+		</dict>
+	</array>
+</dict>
+</plist>
