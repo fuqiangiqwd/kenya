@@ -174,8 +174,8 @@
 - (UILabel *)titleLabel {
     if (!_titleLabel) {
         _titleLabel = [[UILabel alloc] init];
-        [_titleLabel setText:@"体重变化趋势图"];
-//        [_titleLabel setFont:[UIFont boldSystemFontOfSize:_F(15)]];
+        [_titleLabel setText:@"体重变化趋势"];
+        [_titleLabel setFont:[UIFont boldSystemFontOfSize:_F(18)]];
         [_titleLabel setTextColor:[UIColor whiteColor]];
     }
     return _titleLabel;
@@ -216,7 +216,7 @@
     if (!_emptyLab) {
         _emptyLab = [[UILabel alloc] init];
         [_emptyLab setText:@"目前还没有记录哦"];
-        [_emptyLab setFont:[UIFont systemFontOfSize:_F(_Size14)]];
+        [_emptyLab setFont:[UIFont systemFontOfSize:_F(_Size16)]];
         [_emptyLab setTextColor:[KNConfig grayColor]];
     }
     return _emptyLab;

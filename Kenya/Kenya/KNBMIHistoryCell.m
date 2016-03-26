@@ -57,9 +57,10 @@
 - (void)updateCell:(float)index date:(NSString *)dateStr weight:(float)weight {
     [self.indexLab setText:[NSString stringWithFormat:@"%.1f",index]];
     [self.dateLab setText:dateStr];
-    [self.weightLab setText:[NSString stringWithFormat:@"%.1f千克",weight]];
+    [self.weightLab setText:[NSString stringWithFormat:@"体重 %.1f kg",weight]];
     [self.avatarBack setBackgroundColor:[self updateAvatarBackByIndex:index]];
 }
+
 
 - (UIColor *)updateAvatarBackByIndex:(float)index {
     if (index > 18.5 && index <= 24) {

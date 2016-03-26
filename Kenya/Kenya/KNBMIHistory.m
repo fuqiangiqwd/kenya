@@ -34,10 +34,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.title = @"历史记录";
+    self.title = @"记录";
     [self.view setBackgroundColor:[UIColor whiteColor]];
     
-    UIBarButtonItem *rightBtn = [[UIBarButtonItem alloc] initWithTitle:@"趋势图" style:UIBarButtonItemStylePlain target:self action:@selector(showGraph)];
+    UIBarButtonItem *rightBtn = [[UIBarButtonItem alloc] initWithTitle:@"趋势" style:UIBarButtonItemStylePlain target:self action:@selector(showGraph)];
     self.navigationItem.rightBarButtonItem = rightBtn;
     
     UIBarButtonItem *leftBtn = [[UIBarButtonItem alloc] initWithTitle:@"编辑" style:UIBarButtonItemStylePlain target:self action:@selector(editRecords)];
@@ -272,7 +272,7 @@
     if (!_emptyLab) {
         _emptyLab = [[UILabel alloc] init];
         [_emptyLab setText:@"目前还没有记录哦"];
-        [_emptyLab setFont:[UIFont systemFontOfSize:_F(_Size14)]];
+        [_emptyLab setFont:[UIFont systemFontOfSize:_F(_Size16)]];
         [_emptyLab setTextColor:[KNConfig grayColor]];
         [_emptyLab setTextAlignment:NSTextAlignmentCenter];
     }

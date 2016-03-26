@@ -715,7 +715,7 @@
 					"$(PROJECT_DIR)/Kenya",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/FuQiang/Desktop/kenya/Kenya/Kenya/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = /Users/FuQiang/kenya/Kenya/Kenya/PrefixHeader.pch;
 				INFOPLIST_FILE = Kenya/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -845,7 +845,7 @@
 					"$(PROJECT_DIR)/Kenya",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/FuQiang/Desktop/kenya/Kenya/Kenya/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = /Users/FuQiang/kenya/Kenya/Kenya/PrefixHeader.pch;
 				INFOPLIST_FILE = Kenya/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -873,7 +873,7 @@
 					"$(PROJECT_DIR)/Kenya",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/FuQiang/Desktop/kenya/Kenya/Kenya/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = /Users/FuQiang/kenya/Kenya/Kenya/PrefixHeader.pch;
 				INFOPLIST_FILE = Kenya/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
